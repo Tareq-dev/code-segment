@@ -11,7 +11,7 @@ import { SvgIcon } from '@mui/material';
 export const items = [
   {
     title: 'Profile',
-    path: '/',
+    path: '/overview',
     icon: (
       <SvgIcon fontSize="small">
         <ChartBarIcon />
@@ -91,7 +91,7 @@ export const items = [
     )
   },
   {
-    title: 'All Admin',
+    title: 'All Admin',                                                   
     path: '/all-admin',
     icon: (
       <SvgIcon fontSize="small">
