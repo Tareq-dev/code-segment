@@ -3,7 +3,7 @@ import Head from "next/head";
 const Page = () => (
   <>
     <Head>
-      <title>Home | Code Segment</title>
+      <title>Home - Ismam | Code Segment</title>
     </Head>
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
