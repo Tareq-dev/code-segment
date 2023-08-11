@@ -87,7 +87,7 @@ const Page = () => (
             data-aos="zoom-out"
             data-aos-delay="300"
           >
-            <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
+            <img src="assets/img/hero-img.svg" className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>
@@ -370,24 +370,24 @@ const Page = () => (
     </section>
     {/* <!-- End Counts Section --> */}
     {/* <!-- ======= Details Section ======= --> */}
-    <section id="details" class="details">
-      <div class="container">
+    <section id="details" className="details">
+      <div className="container">
 
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/details-1.png" class="img-fluid" alt=""/>
+        <div className="row content">
+          <div className="col-md-4" data-aos="fade-right">
+            <img src="assets/img/details-1.png" className="img-fluid" alt=""/>
           </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
+          <div className="col-md-8 pt-4" data-aos="fade-up">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
+            <p className="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-              <li><i class="bi bi-check"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+              <li><i className="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i className="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i className="bi bi-check"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
+              <li><i className="bi bi-check"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
             </ul>
             <p>
               Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia
@@ -395,13 +395,13 @@ const Page = () => (
           </div>
         </div>
 
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/details-2.png" class="img-fluid" alt=""/>
+        <div className="row content">
+          <div className="col-md-4 order-1 order-md-2" data-aos="fade-left">
+            <img src="assets/img/details-2.png" className="img-fluid" alt=""/>
           </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+          <div className="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Corporis temporibus maiores provident</h3>
-            <p class="fst-italic">
+            <p className="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
             </p>
@@ -416,17 +416,17 @@ const Page = () => (
           </div>
         </div>
 
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/details-3.png" class="img-fluid" alt=""/>
+        <div className="row content">
+          <div className="col-md-4" data-aos="fade-right">
+            <img src="assets/img/details-3.png" className="img-fluid" alt=""/>
           </div>
-          <div class="col-md-8 pt-5" data-aos="fade-up">
+          <div className="col-md-8 pt-5" data-aos="fade-up">
             <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
             <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              <li><i className="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i className="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i className="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
             </ul>
             <p>
               Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.
@@ -437,13 +437,13 @@ const Page = () => (
           </div>
         </div>
 
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/details-4.png" class="img-fluid" alt=""/>
+        <div className="row content">
+          <div className="col-md-4 order-1 order-md-2" data-aos="fade-left">
+            <img src="assets/img/details-4.png" className="img-fluid" alt=""/>
           </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+          <div className="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-            <p class="fst-italic">
+            <p className="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
             </p>
@@ -453,9 +453,9 @@ const Page = () => (
               culpa qui officia deserunt mollit anim id est laborum
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Et praesentium laboriosam architecto nam .</li>
-              <li><i class="bi bi-check"></i> Eius et voluptate. Enim earum tempore aliquid. Nobis et sunt consequatur. Aut repellat in numquam velit quo dignissimos et.</li>
-              <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              <li><i className="bi bi-check"></i> Et praesentium laboriosam architecto nam .</li>
+              <li><i className="bi bi-check"></i> Eius et voluptate. Enim earum tempore aliquid. Nobis et sunt consequatur. Aut repellat in numquam velit quo dignissimos et.</li>
+              <li><i className="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
             </ul>
           </div>
 
