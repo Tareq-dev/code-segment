@@ -7,6 +7,9 @@ export const AuthGuard = (props) => {
   const { children } = props;
   const router = useRouter();
   const { isAuthenticated } = useAuthContext();
+  console.log(isAuthenticated)
+
+  
   const ignore = useRef(false);
   const [checked, setChecked] = useState(false);
 
