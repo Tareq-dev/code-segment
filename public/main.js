@@ -218,4 +218,22 @@
    */
   new PureCounter();
 
+  // --- Scroll to Change Nav background color --- //
+// ========== JS ===============
+document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 0) {
+        document.getElementById('header').classList.add('header-scrolled');
+        //document.getElementById('navbar_top').classList.remove('bg-transparent');
+      }
+       else {
+        //document.getElementById('navbar_top').classList.add('bg-transparent');
+        document.getElementById('header').classList.remove('header-scrolled');
+         // remove padding top from body
+        //document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+
+
 })()
