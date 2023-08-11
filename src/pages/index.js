@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 const Page = () => (
   <>
@@ -49,47 +50,9 @@ const Page = () => (
                 Pricing
               </a>
             </li>
-            <li className="dropdown">
-              <a href="#">
-                <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
-              </a>
-              <ul>
-                <li>
-                  <a href="#">Drop Down 1</a>
-                </li>
-                <li className="dropdown">
-                  <a href="#">
-                    <span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i>
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="#">Deep Drop Down 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 3</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 4</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 5</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Drop Down 2</a>
-                </li>
-                <li>
-                  <a href="#">Drop Down 3</a>
-                </li>
-                <li>
-                  <a href="#">Drop Down 4</a>
-                </li>
-              </ul>
-            </li>
+            <Link className="nav-link scrollto" href="/overview">
+              Dashboard
+            </Link>
             <li>
               <a className="nav-link scrollto" href="#contact">
                 Contact
@@ -400,6 +363,8 @@ const Page = () => (
               <p>Hard Workers</p>
             </div>
           </div>
+
+
         </div>
       </div>
     </section>
@@ -493,8 +458,8 @@ const Page = () => (
               <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
             </ul>
           </div>
-        </div>
 
+        </div>
       </div>
     </section>
     {/* <!-- End Details Section --> */}
