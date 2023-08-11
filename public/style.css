@@ -9,6 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+  --theme: #A555EC;
+}
+
 
 a {
   color: #1acc8d;
@@ -452,7 +456,7 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #A555EC;
+  background: var(--theme);
 }
 
 #hero .btn-get-started:hover {
@@ -691,7 +695,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: var(--theme);
   margin-bottom: 15px;
 }
 

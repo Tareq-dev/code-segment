@@ -72,7 +72,7 @@ const Page = () => (
           <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
             <div data-aos="zoom-out">
               <h1>
-                Build Your Landing Page With <span>Bootstlander</span>
+              আপনার ক্যারিয়ার গড়ার দৃঢ় প্রত্যয়ে, <span>Code Segment</span> আছে সাথে
               </h1>
               <h2>We are team of talented designers making websites with Bootstrap</h2>
               <div className="text-center text-lg-start">
@@ -87,7 +87,7 @@ const Page = () => (
             data-aos="zoom-out"
             data-aos-delay="300"
           >
-            <img src="assets/img/hero-img.svg" className="img-fluid animated" alt="" />
+            <img src="assets/img/hero-img.png" className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>
@@ -137,11 +137,10 @@ const Page = () => (
             className="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
             data-aos="fade-left"
           >
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+            <h3>আমাদের থেকে যা পাবেন</h3>
             <p>
-              Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et
-              sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores
-              excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.
+              প্রযুক্তি বিপ্লবের এই যুগে সফল ক্যারিয়ার গড়ার লক্ষ্যে প্রযুক্তি সম্পর্কে জানার ও শেখার কোনো বিকল্প নেই।
+              আমরা আপনার শেখা এবং জানার আগ্রহকে ক্যারিয়ার পর্যন্ত পৌঁছে দিতে আমাদের অবদান সমূহঃ
             </p>
 
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="100">
@@ -149,7 +148,7 @@ const Page = () => (
                 <i className="bx bx-fingerprint"></i>
               </div>
               <h4 className="title">
-                <a href="">Lorem Ipsum</a>
+                <a href="">অনলাইন লাইভ ক্লাস</a>
               </h4>
               <p className="description">
                 Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
@@ -162,7 +161,7 @@ const Page = () => (
                 <i className="bx bx-gift"></i>
               </div>
               <h4 className="title">
-                <a href="">Nemo Enim</a>
+                <a href="">অনলাইন সাপোর্ট সেশন</a>
               </h4>
               <p className="description">
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -175,7 +174,33 @@ const Page = () => (
                 <i className="bx bx-atom"></i>
               </div>
               <h4 className="title">
-                <a href="">Dine Pad</a>
+                <a href="">প্রজেক্টবেস ক্লাস</a>
+              </h4>
+              <p className="description">
+                Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
+                deserunt minus aut eligendi omnis
+              </p>
+            </div>
+            
+            <div className="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div className="icon">
+                <i className="bx bx-atom"></i>
+              </div>
+              <h4 className="title">
+                <a href="">লাইভ প্রজেক্ট ও এসাইনমেন্ট</a>
+              </h4>
+              <p className="description">
+                Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
+                deserunt minus aut eligendi omnis
+              </p>
+            </div>
+            
+            <div className="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div className="icon">
+                <i className="bx bx-atom"></i>
+              </div>
+              <h4 className="title">
+                <a href="">চাকরি ও ইন্টার্নশিপের প্রস্তুতি</a>
               </h4>
               <p className="description">
                 Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut
@@ -193,8 +218,8 @@ const Page = () => (
     <section id="features" className="features">
       <div className="container">
         <div className="section-title" data-aos="fade-up">
-          <h2>Features</h2>
-          <p>Check The Features</p>
+          <h2>প্রযুক্তি</h2>
+          <p>আমরা যা শেখাবো</p>
         </div>
 
         <div className="row" data-aos="fade-left">
@@ -202,7 +227,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="50">
               {/* <!-- <i className="ri-store-line" style="color: #ffbb2c;"></i> --> */}
               <h3>
-                <a href="">Lorem Ipsum</a>
+                <a href="">HTML5</a>
               </h3>
             </div>
           </div>
@@ -210,7 +235,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="100">
               {/* <!-- <i className="ri-bar-chart-box-line" style="color: #5578ff;"></i> --> */}
               <h3>
-                <a href="">Dolor Sitema</a>
+                <a href="">CSS3</a>
               </h3>
             </div>
           </div>
@@ -218,7 +243,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="150">
               {/* <!-- <i className="ri-calendar-todo-line" style="color: #e80368;"></i> --> */}
               <h3>
-                <a href="">Sed perspiciatis</a>
+                <a href="">Responsive Web Design</a>
               </h3>
             </div>
           </div>
@@ -226,7 +251,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="200">
               {/* <!-- <i className="ri-paint-brush-line" style="color: #e361ff;"></i> --> */}
               <h3>
-                <a href="">Magni Dolores</a>
+                <a href="">Bootstrap</a>
               </h3>
             </div>
           </div>
@@ -234,7 +259,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="250">
               {/* <!-- <i className="ri-database-2-line" style="color: #47aeff;"></i> --> */}
               <h3>
-                <a href="">Nemo Enim</a>
+                <a href="">Tailwind CSS</a>
               </h3>
             </div>
           </div>
@@ -242,7 +267,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="300">
               {/* <!-- <i className="ri-gradienter-line" style="color: #ffa76e;"></i> --> */}
               <h3>
-                <a href="">Eiusmod Tempor</a>
+                <a href="">JavaScript</a>
               </h3>
             </div>
           </div>
@@ -250,7 +275,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="350">
               {/* <!-- <i className="ri-file-list-3-line" style="color: #11dbcf;"></i> --> */}
               <h3>
-                <a href="">Midela Teren</a>
+                <a href="">Github</a>
               </h3>
             </div>
           </div>
@@ -258,7 +283,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="400">
               {/* <!-- <i className="ri-price-tag-2-line" style="color: #4233ff;"></i> --> */}
               <h3>
-                <a href="">Pira Neve</a>
+                <a href="">React</a>
               </h3>
             </div>
           </div>
@@ -266,7 +291,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="450">
               {/* <!-- <i className="ri-anchor-line" style="color: #b2904f;"></i> --> */}
               <h3>
-                <a href="">Dirada Pack</a>
+                <a href="">RESTful API</a>
               </h3>
             </div>
           </div>
@@ -274,7 +299,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="500">
               {/* <!-- <i className="ri-disc-line" style="color: #b20969;"></i> --> */}
               <h3>
-                <a href="">Moton Ideal</a>
+                <a href="">Firebase</a>
               </h3>
             </div>
           </div>
@@ -282,7 +307,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="550">
               {/* <i className="ri-base-station-line" style="color: #ff5828;"></i> */}
               <h3>
-                <a href="">Verdo Park</a>
+                <a href="">NodeJS</a>
               </h3>
             </div>
           </div>
@@ -290,7 +315,7 @@ const Page = () => (
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="600">
               {/* <!-- <i className="ri-fingerprint-line" style="color: #29cc61;"></i> --> */}
               <h3>
-                <a href="">Flavor Nivelanda</a>
+                <a href="">MongoDB</a>
               </h3>
             </div>
           </div>
@@ -313,9 +338,9 @@ const Page = () => (
                 data-purecounter-duration="1"
                 className="purecounter"
               >
-                232
+               ৭০
               </span>
-              <p>Happy Clients</p>
+              <p>সর্বমোট ক্লাস</p>
             </div>
           </div>
 
@@ -328,9 +353,9 @@ const Page = () => (
                 data-purecounter-duration="1"
                 className="purecounter"
               >
-                521
+                ১৫
               </span>
-              <p>Projects</p>
+              <p>প্র্যাকটিস প্রজেক্ট</p>
             </div>
           </div>
 
@@ -343,9 +368,9 @@ const Page = () => (
                 data-purecounter-duration="1"
                 className="purecounter"
               >
-                1463
+                ১৬
               </span>
-              <p>Hours Of Support</p>
+              <p>এসাইনমেন্ট</p>
             </div>
           </div>
 
@@ -358,9 +383,9 @@ const Page = () => (
                 data-purecounter-duration="1"
                 className="purecounter"
               >
-                15
+                ৩৫
               </span>
-              <p>Hard Workers</p>
+              <p>সর্বোচ্চ শিক্ষার্থী/ব্যাচ</p>
             </div>
           </div>
 
